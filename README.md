@@ -10,6 +10,8 @@ Syntax: CASE expression WHEN value1 THEN result1 [WHEN value2 THEN result2] ... 
 
 Example: Useful for mapping specific IDs to names or categories.
 
+
+
 Searched CASE: Evaluates multiple independent conditions (including ranges and complex logical operators).
 
 Syntax: CASE WHEN condition1 THEN result1 [WHEN condition2 THEN result2] ... [ELSE resultN] END.
